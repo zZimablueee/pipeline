@@ -1,0 +1,9 @@
+# 排除原始数据
+data/raw/
+
+# 排除模型训练产生的大文件（按需）
+*.pkl
+*.joblib
+
+# 排除 Jupyter 的检查点文件
+.ipynb_checkpoints/
