@@ -2,15 +2,15 @@
 you can download it from here:https://drive.google.com/drive/folders/18xgkKy4pcxddSPDr99GNYswu4CZa_nwD?usp=sharing  
 the input is the raw database, calls 1410-15.csv
 the output includes 2 tables:    
-1.the games table:   1410-15result.csv    (the results of 'games_flow2.ipynb' in folder 'notebooks'; And if you run 'player_flow.ipynb' in folder'notebooks',it also can be the input file,just change the filepath)
+1.the games table:   1410-15result.csv    (the results of 'games_flow2.ipynb' in folder 'notebooks'; And if you run 'player_flow.ipynb' in folder'notebooks',it also can be the input file,just change the filepath)         
 2.the players table:   df_final.csv    (the results of 'player_flow.ipynb')
 
 2.  the "models" folder includes the original ipynb files which doesn't warpped with Prefect
 
 3.  the "notebooks" folder includes 2 ipynb files wrapped with prefect, I recommand to run this but not the main.py cause this is more clear
-This is what should do before run the file in "notebooks",basically change the filepaths:
-1.open "games_flow2.ipynb", and go to " deploy_analysis" function and change the path , then run it ,you will get a table contains all the games' details
-2.open "player_flow.ipynb",go to the last cell and change the csv path
+This is what should do before run the file in "notebooks",basically change the filepaths:      
+1.open "games_flow2.ipynb", and go to " deploy_analysis" function and change the path , then run it ,you will get a table contains all the games' details       
+2.open "player_flow.ipynb",go to the last cell and change the csv path      
 (the input should be the results of "games_flow2.ipynb",but you can also directly choose the "1410-15result.csv"file you downloaded from the link at the beginning so that you dont have to wait a long time.)
 
 
