@@ -927,13 +927,13 @@ if __name__ == "__main__":
     accuracy calculations, and phase-based performance metrics.
     """    
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    csv_file_path = os.path.join(script_dir, "../data/input/170k.csv")
+    csv_file_path = os.path.join(script_dir, "../data/input/1600.csv")
     engine_path = 'C:/Users/Administrator/Downloads/stockfish-windows-x86-64-avx2/stockfish/stockfish-windows-x86-64-avx2.exe'
     threads = 1  
     depth = 16  
     is_verbose = True
     output_dir=os.path.join(script_dir,'../data/output')
-    output_filename = "mpi170k.csv"
+    output_filename = "mpi1686.csv"
     
     #运行流程
     result_dict, mediate_df, output_path = analyze_chess_games(
